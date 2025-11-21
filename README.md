@@ -1,10 +1,15 @@
 # TWITTER-SENTIMENT-ANALYSIS-NLP-
 ## Overview
-This project is a Twitter Sentiment Analysis tool that classifies tweets as **Positive** or **Negative** using a machine learning model (Logistic Regression). It preprocesses the tweets, cleans the text, applies stemming, and then trains a model using TF-IDF features.
+This project predicts the **sentiment of tweets** as **Positive (1)** or **Negative (0)** using **Machine Learning** and **Natural Language Processing (NLP)** techniques.
 
-## Features
-- Clean and preprocess tweets
-- Stem words and remove stopwords
-- TF-IDF vectorization
-- Logistic Regression model for sentiment classification
-- Predict sentiment of new tweets
+It leverages:
+- Text cleaning and preprocessing
+- TF-IDF feature extraction
+- Linear Support Vector Classifier (LinearSVC)
+
+## Dataset
+- **Sentiment140 Dataset**: 1.6 million tweets
+- Columns:
+  - `target`: sentiment label (0 = Negative, 4 converted to 1 = Positive)
+  - `id`, `date`, `flag`, `user`, `text`
+- Dataset is loaded from `training.1600000.processed.noemoticon.csv` and preprocessed.
