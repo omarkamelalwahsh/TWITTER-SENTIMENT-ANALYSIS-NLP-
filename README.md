@@ -1,4 +1,5 @@
 # TWITTER-SENTIMENT-ANALYSIS-NLP-
+https://www.kaggle.com/datasets/kazanova/sentiment140
 ## Overview
 This project predicts the **sentiment of tweets** as **Positive (1)** or **Negative (0)** using **Machine Learning** and **Natural Language Processing (NLP)** techniques.
 
